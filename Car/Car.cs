@@ -65,4 +65,11 @@ public class Car
     {
         this.fuel = fuel;
     }
+
+    // To string
+    public override string ToString()
+    {
+        return this.brand + ", " + this.model + ", " + this.doors + 
+            ", " + this.color + ", " + this.fuel; 
+    }
 }
